@@ -366,3 +366,40 @@ img.mfp-img {
   top: 0;
   right: 0;
   padding-top: 0; }
+
+/*-------------------------------------*/
+/*-----TAMBAHAN UNTUK TOMBOL GO TOP----*/
+/*-------------------------------------*/
+/*=====Untuk Button go to top==========*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 16px;
+  right: 12px;
+  border: none;
+  outline: none;
+  background-color: gray;
+  opacity:0.6;
+  color: black;
+  cursor: pointer;  
+  border-radius: 7px;
+
+}
+
+#myBtn:hover {
+  	background-color: darkgray;
+	opacity:0.8;
+}
+
+#imgMyBtn{
+	padding: 2px;	
+	align:auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+
+}
+
+
+
